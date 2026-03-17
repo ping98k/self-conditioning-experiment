@@ -1,0 +1,12 @@
+[project]
+name = "long-horizon-execution-benchmark"
+version = "0.1.0"
+description = "Reproduction of experiments from 'The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs'"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0.0",
+    "numpy>=1.24.0",
+    "gradio>=5.0.0",
+    "matplotlib>=3.7.0",
+]
+
